@@ -4,10 +4,10 @@ platform: linux
 image: docker:///pubtools/docs-docker-with-dita-ot#latest
 
 inputs:
-  - small-book
-  - tiny-section
-  - credentials
-  - concourse-scripts
+  - name: small-book
+  - name: tiny-section
+  - name: credentials
+  - name: concourse-scripts
 
 run:
   path: concourse-scripts/publish-to-staging.sh

@@ -4,7 +4,10 @@ platform: linux
 image: docker:///pubtools/docs-docker-with-dita-ot#latest
 
 inputs:
-  # fill me in!
+  - small-book
+  - tony-section
+  - credentials
+  - concourse-scripts
 
 run:
-  path: # fill me in!
+  path: concourse-scripts/publish-to-staging.sh

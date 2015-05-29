@@ -5,7 +5,7 @@ image: docker:///pubtools/docs-docker-with-dita-ot#latest
 
 inputs:
   - small-book
-  - tony-section
+  - tiny-section
   - credentials
   - concourse-scripts
 
